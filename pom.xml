@@ -13,7 +13,7 @@
   <packaging>pom</packaging>
   <name>Camus Parent</name>
   <description>
-    Camus is LinkedIn's Kafka->HDFS pipeline. It is a mapreduce job that does distributed data loads out of Kafka.
+    Camus is LinkedIn's Kafka-&gt;HDFS pipeline. It is a mapreduce job that does distributed data loads out of Kafka.
   </description>
   <url>https://github.com/linkedin/camus</url>
 
@@ -93,7 +93,7 @@
       <dependency>
 	<groupId>org.easymock</groupId>
         <artifactId>easymock</artifactId>
-        <version>3.3.1</version>
+        <version>3.6</version>
       </dependency>
       <dependency>
 	<groupId>org.apache.kafka</groupId>
